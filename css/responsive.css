@@ -32,14 +32,11 @@ img.logo {
 .project_name {
   font-size: 18px;
 }
-.project_boxL {
+.project_box_resume, .project_box_game, .project_box_web, .project_box_map, .project_box_feeder, .project_box_heart {
   width: calc((100% - 10px)/1);
   margin: 5px 20px 20px 20px;
 }
-.project_boxR {
-  width: calc((100% - 10px)/1);
-  margin: 5px 20px 20px 20px;
-}
+
 /* Footer styles */
 .links {
   font-size: 13px;
@@ -55,11 +52,11 @@ footer a {
 @media screen and (min-width: 475px) {
 
 /* Main styles */
-.project_boxL {
+.project_box_resume, .project_box_web, .project_box_feeder {
   width: calc((100% - 60px)/2);
   margin: 5px 10px 20px 20px;
 }
-.project_boxR {
+.project_box_game, .project_box_map, .project_box_heart {
   width: calc((100% - 60px)/2);
   margin-top: 5px;
   margin: 5px 20px 20px 10px;
@@ -108,30 +105,23 @@ footer a {
 /* Breakpoint for at 700 pixles*/
 @media screen and (min-width: 700px) {
 
-/* Header styles */
-.header__name {
-    font-size: 50px;
-    padding: 8px 0px 8px 0px;
-}
-.header__title {
-    font-size: 34px;
-    padding: 8px 0px 8px 0px;
-}
+
+
+
 /* Main styles */
-.project_header {
-  font-size: 34px;
-  margin-left: 20px;
+.project_box_resume, .project_box_map {
+  width: calc((100% - 80px)/3);
+  margin: 5px 10px 20px 20px;
 }
-.project_name {
-  font-size: 26px;
+.project_box_game, .project_box_feeder {
+  width: calc((100% - 80px)/3);
+  margin-top: 5px;
+  margin: 5px 10px 20px 10px;
 }
-/* Footer styles */
-.links {
-  font-size: 20px;
-    margin-bottom: 10px;
-}
-footer a {
-  padding: 0.8em 1em 0.8em 1em;
+.project_box_web, .project_box_heart {
+  width: calc((100% - 80px)/3);
+  margin-top: 5px;
+  margin: 5px 20px 20px 10px;
 }
 
 }
