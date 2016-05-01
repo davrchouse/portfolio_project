@@ -41,7 +41,7 @@ ul {
   margin: 0;
 }
 
-section, subsection, footer {
+section, subsection, footer, div.name_area, div.full_name {
    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -63,6 +63,7 @@ section, subsection, footer {
   display: flex;
   flex-wrap: wrap;
 }
+
 
 /*
 .spacer {

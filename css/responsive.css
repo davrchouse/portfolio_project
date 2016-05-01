@@ -14,6 +14,12 @@ img.logo {
     height: 150px;
 }
 
+
+span.white_font {
+    color:white;
+    display: none;
+}
+
 .logo_area {
     background-color: rgba(18,48,53,.9);
     width: 100%;
@@ -23,7 +29,12 @@ img.logo {
 .name_area {
      width: 100%;
      order:0;
-}
+ }
+
+.full_name {width:100%;}
+.first_name {width: 120px;}
+.last_name {width: 135px;}
+.design_title{width:100%;}
 
 .header__name {
     margin-left: 20px;
@@ -87,8 +98,11 @@ footer a {
 
 /* Header styles */
 .header_area {
-    height: 80px;
+    height: 90px;
 }
+
+
+
 
 
 img.logo {
@@ -164,8 +178,27 @@ footer a {
 
 
 .header_area {
-    height: 90px;
+    height: 115px;
+    padding-bottom: 40px;
 }
+
+
+
+.first_name {width: 171px;
+    background-color: rgba(18,48,53,.9);}
+.last_name {width: 200px;
+    margin-left: -8px;
+    }
+
+span.white_font {
+    color:white;
+    display: inline-block;
+}
+
+span.black_font {
+    display: none;
+}
+
 
 .main_area {
     border-top: 0px;
@@ -180,7 +213,7 @@ footer a {
     padding: 8px 0px 8px 0px;
 }
 .header__title {
-    font-size: 34px;
+    font-size: 22px;
     padding: 8px 0px 8px 0px;
 }
 /* Main styles */
