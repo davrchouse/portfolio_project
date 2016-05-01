@@ -2,17 +2,29 @@
 
 /* Header styles */
 img.logo {
-    width:100px;
+    width:70px;
     margin:0;
     padding: 10px 0px 10px 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.topbanner {
-    background-color: rgba(18,48,53,.9);
-    width: 100%%;
+
+.header_area {
+    height: 150px;
 }
+
+.logo_area {
+    background-color: rgba(18,48,53,.9);
+    width: 100%;
+    order:-1;
+}
+
+.name_area {
+     width: 100%;
+     order:0;
+}
+
 .header__name {
     margin-left: 20px;
     margin-top: 0px;
@@ -31,6 +43,10 @@ img.logo {
     width:100%;
     order:-1;
 }
+
+.horiz_bar {display:visible;}
+
+
 .projects {
     width:100%;
 }
@@ -69,7 +85,59 @@ footer a {
 /* Breakpoint for landscape mode of phones*/
 @media screen and (min-width: 475px) {
 
+/* Header styles */
+.header_area {
+    height: 80px;
+}
+
+
+img.logo {
+    width:100px;
+    height: 62px;
+    margin:0;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_area {
+    background-color: rgba(18,48,53,.9);
+    width: 25%;
+    order:0;
+}
+.name_area {
+     width: 75%;
+     order:-1;
+}
+.header__name {
+    margin-left: 15px;
+    margin-top: 0px;
+    font-size: 35px;
+    padding: 8px 0px 8px 0px;
+}
+.header__title {
+    margin-left: 15px;
+    font-size: 22px;
+    padding: 0px 0px 8px 0px;
+}
+
+
 /* Main styles */
+
+main .horiz_bar {display: none;}
+
+.header_area {
+        padding-bottom: 20px;
+
+}
+
+
+.main_area {
+    border-top: 3px solid rgba(18,48,53,.9);
+    padding-top: 10px;
+}
+
+
 .project_box_resume, .project_box_web, .project_box_feeder {
   width: calc((100% - 60px)/2);
   margin: 5px 10px 20px 20px;
@@ -93,6 +161,20 @@ footer a {
 @media screen and (min-width: 569px) {
 
 /* Header styles */
+
+
+.header_area {
+    height: 90px;
+}
+
+.main_area {
+    border-top: 0px;
+}
+
+
+.horiz_bar {display:none;}
+
+
 .header__name {
     font-size: 50px;
     padding: 8px 0px 8px 0px;

@@ -1,4 +1,4 @@
-body, html {
+body, html, section {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -21,10 +21,14 @@ header, section, main, footer, div {
   box-sizing: border-box;
 }
 
+header {
+  padding:0px;
+}
+
 .sides {
   border-left: 5px solid rgba(18,48,53,.9);
   border-right: 5px solid rgba(18,48,53,.9);
-}
+ }
 
 img {
   max-width: 100%;
