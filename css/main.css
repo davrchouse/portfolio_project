@@ -37,7 +37,7 @@ ul {
   margin: 0;
 }
 
-section, footer {
+section, subsection, footer {
    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -73,12 +73,6 @@ section, footer {
   }
 
 /* Main styles */
-
-
-.project_header {
-  width: 100%;
-  padding-bottom: 10px;
-}
 
 img.round {
   border:1px solid #;

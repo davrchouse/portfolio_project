@@ -24,10 +24,21 @@ img.logo {
     font-size: 22px;
     padding: 0px 0px 8px 0px;
 }
+
+
 /* Main styles */
+.sidespace {
+    width:100%;
+    order:-1;
+}
+.projects {
+    width:100%;
+}
 .project_header {
   font-size: 24px;
   margin-left: 20px;
+  width: 100%;
+  padding-bottom: 10px;
 }
 .project_name {
   font-size: 18px;
@@ -92,11 +103,11 @@ footer a {
 }
 /* Main styles */
 .project_header {
-  font-size: 34px;
+  font-size: 24px;
   margin-left: 20px;
 }
 .project_name {
-  font-size: 26px;
+  font-size: 20px;
 }
 /* Footer styles */
 .links {
@@ -112,10 +123,28 @@ footer a {
 /* Breakpoint for at 700 pixels*/
 @media screen and (min-width: 700px) {
 
-
-
-
 /* Main styles */
+
+
+.main_area {
+    margin-top: 20px;
+}
+.sidespace {
+    width:25%;
+}
+.project_header {
+  font-size: 24px;
+  margin-left: 20px;
+  text-align: right;
+  margin-top: 3px;
+}
+.projects {
+    width:75%;
+}
+
+
+
+
 .project_box_resume, .project_box_game {
   width: calc((100% - 80px)/3);
   margin: 5px 10px 20px 20px;
