@@ -37,6 +37,13 @@ img.logo {
   margin: 5px 20px 20px 20px;
 }
 
+.project_box_resume {order:1;} 
+.project_box_game {order:2;} 
+.project_box_web {order:3;} 
+.project_box_map {order:4;} 
+.project_box_feeder {order:5;} 
+.project_box_heart {order:6;}
+
 /* Footer styles */
 .links {
   font-size: 13px;
@@ -109,20 +116,27 @@ footer a {
 
 
 /* Main styles */
-.project_box_resume, .project_box_map {
+.project_box_resume, .project_box_game {
   width: calc((100% - 80px)/3);
   margin: 5px 10px 20px 20px;
 }
-.project_box_game, .project_box_feeder {
+.project_box_web, .project_box_map {
   width: calc((100% - 80px)/3);
   margin-top: 5px;
   margin: 5px 10px 20px 10px;
 }
-.project_box_web, .project_box_heart {
+.project_box_feeder, .project_box_heart {
   width: calc((100% - 80px)/3);
   margin-top: 5px;
   margin: 5px 20px 20px 10px;
 }
+
+
+.project_box_game {order:4;} 
+.project_box_web {order:2;} 
+.project_box_map {order:5;} 
+.project_box_feeder {order:3;} 
+.project_box_heart {order:6;}
 
 /* Breakpoint for at 850 pixels for auto margins*/
 @media screen and (min-width: 850px) {
