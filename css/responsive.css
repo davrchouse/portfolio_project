@@ -102,7 +102,7 @@ footer a {
 
 }
 
-/* Breakpoint for at 700 pixles*/
+/* Breakpoint for at 700 pixels*/
 @media screen and (min-width: 700px) {
 
 
@@ -124,4 +124,11 @@ footer a {
   margin: 5px 20px 20px 10px;
 }
 
+/* Breakpoint for at 850 pixels for auto margins*/
+@media screen and (min-width: 850px) {
+  main, header, footer {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
