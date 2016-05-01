@@ -1,0 +1,137 @@
+/* Default sizes for below 569 pixel width */
+
+/* Header styles */
+img.logo {
+    width:100px;
+    margin:0;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topbanner {
+    background-color: rgba(18,48,53,.9);
+    width: 100%%;
+}
+.header__name {
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 35px;
+    padding: 8px 0px 8px 0px;
+}
+.header__title {
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 0px 0px 8px 0px;
+}
+/* Main styles */
+.project_header {
+  font-size: 24px;
+  margin-left: 20px;
+}
+.project_name {
+  font-size: 18px;
+}
+.project_boxL {
+  width: calc((100% - 10px)/1);
+  margin: 5px 20px 20px 20px;
+}
+.project_boxR {
+  width: calc((100% - 10px)/1);
+  margin: 5px 20px 20px 20px;
+}
+/* Footer styles */
+.links {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+footer a {
+  text-transform: uppercase;
+  padding: 1.3em;
+}
+
+
+/* Breakpoint for landscape mode of phones*/
+@media screen and (min-width: 475px) {
+
+/* Main styles */
+.project_boxL {
+  width: calc((100% - 60px)/2);
+  margin: 5px 10px 20px 20px;
+}
+.project_boxR {
+  width: calc((100% - 60px)/2);
+  margin-top: 5px;
+  margin: 5px 20px 20px 10px;
+}
+/* Footer styles */
+.links {
+  font-size: 16px;
+    margin-bottom: 10px;
+}
+footer a {
+  padding: 1.1em;
+}
+}
+
+/* Breakpoint for tablets*/
+@media screen and (min-width: 569px) {
+
+/* Header styles */
+.header__name {
+    font-size: 50px;
+    padding: 8px 0px 8px 0px;
+}
+.header__title {
+    font-size: 34px;
+    padding: 8px 0px 8px 0px;
+}
+/* Main styles */
+.project_header {
+  font-size: 34px;
+  margin-left: 20px;
+}
+.project_name {
+  font-size: 26px;
+}
+/* Footer styles */
+.links {
+  font-size: 20px;
+    margin-bottom: 10px;
+}
+footer a {
+  padding: 0.8em 1em 0.8em 1em;
+}
+
+}
+
+/* Breakpoint for at 700 pixles*/
+@media screen and (min-width: 700px) {
+
+/* Header styles */
+.header__name {
+    font-size: 50px;
+    padding: 8px 0px 8px 0px;
+}
+.header__title {
+    font-size: 34px;
+    padding: 8px 0px 8px 0px;
+}
+/* Main styles */
+.project_header {
+  font-size: 34px;
+  margin-left: 20px;
+}
+.project_name {
+  font-size: 26px;
+}
+/* Footer styles */
+.links {
+  font-size: 20px;
+    margin-bottom: 10px;
+}
+footer a {
+  padding: 0.8em 1em 0.8em 1em;
+}
+
+}

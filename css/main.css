@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5 {
   margin: 0; 
 }
 
-header, projects, main, footer, div {
+header, section, main, footer, div {
   box-sizing: border-box;
 }
 
@@ -37,83 +37,7 @@ ul {
   margin: 0;
 }
 
-/* Header styles */
-
-
-
-
-img.logo {
-    width:100px;
-    margin:0;
-    padding: 10px 0px 10px 0px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.topbanner {
-    background-color: rgba(18,48,53,.9);
-    width: 100%%;
-}
-
-.header__name {
-    font-size: 35px;
-    padding: 8px 0px 8px 0px;
-}
-
-.header__title {
-    font-size: 22px;
-    padding: 8px 0px 8px 0px;
-}
-
-
-/* Main styles */
-
-
-.project_header {
-  font-size: 20px;
-  width: 100%;
-  padding-bottom: 10px;
-}
-
-.project_boxL {
-  width: calc((100% - 10px)/2);
-  margin-top: 5px;
-  margin-right: 10px;
-}
-.project_boxR {
-  width: calc((100% - 10px)/2);
-  margin-top: 5px;
-  margin-right: 0px;
-}
-
-img.round {
-  border:1px solid #;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;  
-}
-
-.project_name {
-  font-size: 16px;
-   text-align: center;
-   margin: 10px 0px 10px 0px;
-}
-
-.darkgray {background-color: rgba(18,48,53,.9);}
-.green {background-color: rgba(65,153,40,.75);}
-.red {background-color: rgba(143,76,104,.7);}
-.blue {background-color: rgba(25,149,165,.6);}
-
-
-#arcade {}
-#resume {}
-#website {}
-#map {}
-#reader {}
-#tracker {}
-
-projects, footer {
+section, footer {
    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -123,12 +47,9 @@ projects, footer {
     flex-wrap: wrap;
 }
 
-
-/* Footer styles */
-
 .horiz_bar {
   width:100%;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 10px;
   display: -webkit-box;
   display: -moz-box;
@@ -151,6 +72,42 @@ projects, footer {
     height:3px;
   }
 
+/* Main styles */
+
+
+.project_header {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+img.round {
+  border:1px solid #;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;  
+}
+
+.project_name {
+   text-align: center;
+   margin: 10px 0px 10px 0px;
+}
+
+.darkgray {background-color: rgba(18,48,53,.9);}
+.green {background-color: rgba(65,153,40,.75);}
+.red {background-color: rgba(143,76,104,.7);}
+.blue {background-color: rgba(25,149,165,.6);}
+
+
+#arcade {}
+#resume {}
+#website {}
+#map {}
+#reader {}
+#tracker {}
+
+/* Footer styles */
+
+
 footer li {
   display: inline-block;
   margin-right: auto;
@@ -162,13 +119,5 @@ footer ul {
   margin-left: auto;
 }
 
-.links {
-  font-size: 13px;
-}
-
-footer a {
-  text-transform: uppercase;
-  padding: 1.2em;
-}
 
 
