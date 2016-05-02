@@ -75,10 +75,15 @@ span.white_font {
 .project_box_resume, .project_box_game, .project_box_web, .project_box_map, .project_box_feeder, .project_box_heart {
   width: calc((100% - 10px)/1);
   margin: 5px 20px 20px 20px;
+  border:2px solid white;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;  
 }
 
 .project_box_resume:hover,.project_box_game:hover,.project_box_map:hover,.project_box_web:hover,.project_box_feeder:hover,.project_box_heart:hover {
     cursor: pointer;
+    border:1px solid white;
 }
 
 .project_box_resume {order:1;} 
