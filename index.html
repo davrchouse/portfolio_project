@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>David House Portfolio</title>
-    
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
   </head>
 
 <body>
@@ -53,10 +55,13 @@
             </subsection>
             
             <subsection class="projects">
-            <div class="project_box_resume">
+            <div class="toggler">
+            <div class="project_box_resume red" id="button">
                 <img class="darkgray round" src="images/resume_700_500_small.svg" alt="teaching technology and science icons">
                 <!-- adapted from free svgs from https://www.iconfinder.com -->
                 <h3 class="project_name">Online Resume</h3>
+                <p id="resume">Testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing.</p>
+            </div>
             </div>
             <div class="project_box_game">
                 <img class="green round" src="images/joystick_700_500.svg" alt="joystick graphic">
