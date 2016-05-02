@@ -64,6 +64,10 @@ section, subsection, footer, div.name_area, div.full_name {
   flex-wrap: wrap;
 }
 
+header.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 /*
 .spacer {
@@ -74,7 +78,7 @@ section, subsection, footer, div.name_area, div.full_name {
 .horiz_line {
     background-color: rgba(18,48,53,.9);
     width:100%;
-    height:3px;
+    height:2px;
   }
 
 /* Main styles */

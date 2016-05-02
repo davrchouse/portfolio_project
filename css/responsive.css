@@ -55,9 +55,6 @@ span.white_font {
     order:-1;
 }
 
-.horiz_bar {display:visible;}
-
-
 .projects {
     width:100%;
 }
@@ -138,7 +135,7 @@ img.logo {
 
 /* Main styles */
 
-main .horiz_bar {display: none;}
+main.horiz_bar {display: none;}
 
 .header_area {
         padding-bottom: 20px;
@@ -147,7 +144,6 @@ main .horiz_bar {display: none;}
 
 
 .main_area {
-    border-top: 3px solid rgba(18,48,53,.9);
     padding-top: 10px;
 }
 
@@ -205,7 +201,7 @@ span.black_font {
 }
 
 
-.horiz_bar {display:none;}
+main.horiz_bar {display:none;}
 
 
 .header__name {
