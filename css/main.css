@@ -69,12 +69,6 @@ header.container {
   padding-right: 0px;
 }
 
-/*
-.spacer {
-    width:5%;
-    height:3px;
-}
-*/
 .horiz_line {
     background-color: rgba(18,48,53,.9);
     width:100%;
@@ -99,6 +93,10 @@ img.round {
 .green {background-color: rgba(65,153,40,.75);}
 .red {background-color: rgba(143,76,104,.7);}
 .blue {background-color: rgba(25,149,165,.6);}
+
+div.project_box_resume div p{
+  display:block;
+}
 
 
 /* Footer styles */
